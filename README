@@ -1,1 +1,2 @@
 a extremly simple batch scritp for gimp to resize theme icons
+gimp -i -b '(batch-icon-scale "*.png" 48 48)' -b '(gimp-quit 0)'
